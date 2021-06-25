@@ -1,0 +1,151 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body, h1, h2, h3, h4, h5, h6, p, a, span, strong{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* blog section css */
+
+.blog-text{
+    text-align: center;
+}
+.blog-text h5 {
+	color: #3763eb;
+	font-weight: 400;
+	font-size: 23px;
+}
+.blog-text h1 {
+	font-size: 53px;
+    margin-bottom: 25px;
+	font-weight: 600;
+    position: relative;
+}
+.blog-text h1::after {
+	content: "";
+	position: absolute;
+	bottom: -13px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100px;
+	height: 3px;
+	background-color: #3763eb;
+}
+.blog-text p {
+	width: 58%;
+	margin: auto;
+	font-size: 20px;
+	color: #606060;
+}
+
+.blog-img-content{}
+.blog-img-content .card{
+    border: none;
+}
+.blog-img-content .card img{
+    max-width: 100%;
+    position: relative;
+}
+.blog-img-content h5 {
+	margin: 20px 0;
+	padding-right: 15px;
+	font-size: 23px;
+}
+.blog-img-content p {
+	color: #606060;
+}
+
+.author {
+	background-color: #3763eb;
+	width: 200px;
+	padding: 5px;
+	position: absolute;
+	bottom: 192px;
+	right: 10px;
+}
+.author img{
+    width: 40px;
+    border-radius: 50%;
+}
+.author span {
+	color: #fff;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+/* footer-section css */
+
+.footer-section{
+    background-color: #111;
+}
+.footer-top{
+    border-bottom: 1px solid #606060;
+}
+.footer-logo-content{
+
+}
+.footer-logo-content a img {
+	width: 100px;
+	padding: 20px 0;
+	display: inline-block;
+}
+.footer-logo-content p {
+	color: #ddd;
+}
+.footer-icon ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 50px;
+}
+.footer-icon ul li {
+    display: inline-block;
+}
+.footer-icon ul li a {
+	color: #ddd;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+.fotter-content-text{}
+.fotter-content-text ul{
+    list-style: none;
+}
+.fotter-content-text ul li{}
+.fotter-content-text ul li span{
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.fotter-content-text ul li span::before{
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: -12px;
+    width: 2px;
+    height: 80%;
+    background-color: #3763eb;
+}
+.fotter-content-text ul li a {
+	text-decoration: none;
+	color: #ddd;
+	padding: 9px 0;
+	display: inline-block;
+}
+
+/* footer-bottom */
+
+.footer-bottom-content{}
+.footer-bottom-content p{
+	margin-bottom: 0;
+	padding-top: 23px;
+	word-spacing: 5px;
+}
+.footer-bottom-content a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
